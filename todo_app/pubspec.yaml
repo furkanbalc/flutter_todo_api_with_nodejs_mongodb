@@ -1,0 +1,41 @@
+name: todo_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0-262.1.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # State Management
+  provider: ^6.1.1
+  
+  # Cache 
+  shared_preferences: ^2.2.2
+
+  # Network
+  http: ^1.1.0
+  dio: ^5.4.0
+
+  # Core
+  intl: ^0.19.0
+
+  # Product
+  flutter_slidable: ^3.0.1
+  lottie: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lotties/
